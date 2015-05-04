@@ -1,0 +1,38 @@
+/* This is a CSS comment.*/
+* {
+   outline: 1px solid red !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1 {
+	height: 300px;
+	min-width: 450px;
+	max-width: 650px;
+	background-color: yellow;
+}
+.description {
+	color: red;
+	text-align: left;
+	padding: 35px;
+	margin: 10px;
+}
+.image {
+	max-width: 460px;
+}
+.description {
+	max-width: 705px;
+	}
+b {
+	color: pink;}
+b {
+	color: blue !important;}
+b {
+	color: violet;}
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
