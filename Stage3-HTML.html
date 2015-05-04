@@ -1,0 +1,53 @@
+<!--intro to programming notes-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="Nano-Intro-Pgm-Notes-CSS-Sublime.css" type="text/css" rel="stylesheet" />
+  <title>Intro To Web Programming Notes</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+
+  <div class="top-page"><!-- start of testing with images and flex -->
+    <div>
+      <img src="Images/badlands.jpg" class="images" alt="Badlands National Park Late Afternoon" title="Badlands at Dusk" />
+    </div>
+    
+    <div>
+      <p>This page is developed by Virginia LaFlamme<br /><br /> Photography by Virginia LaFlamme</p>
+    </div>
+  </div>
+
+<div class="lesson">
+    <h1>Stage 3</h1>
+
+	<div class="sub-topic">
+		<h2>Python - OOP and Classes</h2> 
+			<ul> 
+				<li>Object Oriented Programming (OOP) - a programming paradigm based on the concept of "objects", which are data structures that contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods. OOP is a valuable tool when programming large projects because it allows the re-use of code and provides a better way to organize the various methods, etc.</li>
+				<li>Abstraction - this hides the detailed code behind documentation e.g. take the Python standard library which contains files which contain methods inside of them; these files / methods can be accessed/ used within your program without the coder needing to know how the method is actually written - coder just knows what the method is used to do - coder can focus on what their own program needs to do and make use of these files/ methods. This is similar to how using CSS classes within HTML code, which avoids repetitive of styling code, etc. and enables it to be reused across multiple HTML programs.</li>
+				<li>Exceptions - Python provides a feature to handle any unexpected error in the Python program,</li>
+				<li>Exceptions are when the program encounters an error and does not know how to proceed, therefore the program stops  before its normal completion.</li>
+				<li>Modular programming support provides the ability to group procedures into files / modules for organizational purposes.</li>
+				<li>Module - Webbrowser - provides a high-level interface to allow displaying Web-based documents to users.</li>
+				<li>Module - Time - provides time related functions</li>
+				<li>Module - OS - contains many functions that allow the program to obtain and use many different things related to operating system dependent functionality for files, folders, directories, etc.; e.g. LISTDIR - lists all files in a given directory; RENAME - renames a file</li>
+				<li>Method - is a procedure associated with an object class, made up of behavior and data.</li>
+				<li>Librar - in OOP, a class library is a collection of prewritten classes or coded templates, any of which can be specified and used by a programmer when developing an application program. The programmer specifies which classes are being used and furnishes data that initializes each class as an object that can be called when the program is executed. Access to and use of a class library greatly simplifies the job of the programmer since code is available that the programmer doesn't have to write (but should test to ensure it works correctly).</li>
+				<li>A Class is a template for the structure of a complicated data structure; and includes named attributes for storing various elements contained in the class structure. A class is only a blueprint - meaning it defines how something should be laid out and structured, but does not fill in any content.An Instance or Object is a specific copy of the class which does contain the content.A class is like an empty form which can be printed out for use - the form lays out the structure and fields (attributes) which will be populated with data; but when someone prints out the form and adds data into the form attributes, this printed form with the content is considered an instance of the form (class).Classes - contained in the Python library - a file; classes are like a blueprint or template; you can create multiple duplicate instances of the class; when you call a class, it in turn calls the INIT method inside that class; e.g. class "turtle" contains a function named "_init_" which initializes space inside memory to hold a new instance or new object of the class "turtle" (INIT is also called a constructor); the instance is given a variable name; the variable can now access all of the other methods stored inside the class "turtle", e.g. forward and right.</li>
+				<li>Accessing Python library modules - use IMPORT <i>module name</i>; this binds and referencdes the module named attributes, then in your code you can reference particular attributes or methods from inside the module by using <i>module name</i>.<i>name or attribute</i>.Accessing specific attributes from Python library modules - use FROM <i>module name</i> IMPORT <i>folder or attribute name</i>; this imports the specific attribute name into the importing module global symbol table.</li>
+				<li>brad = turtle.Turtle() - this command accesses the module named turtle; and inside there, the class named Turtle; by using the parenthesis, it then calls the INIT function which sets aside space in memory and creates an instance or object of the class Turtle named brad. brad can then do things that are defined inside of the class Turtle.</li>
+				<li>Python has built-in functions - these are always available - these are commonly used functions, e.g. .open to open a file.</li>
+				<li>Class - keywork which allows us to create a class, which can contain data and methods; it is good practice to store the class in one file, and call the class from a different file.</li>
+				<li>An Instance of a class is constructed - a Constructor is the function __INIT__ (the two double underscores means INIT is a reserved word in Python and that is it a special function or method) and is used to create the instance.  </li>
+				<li>Self - First parameter of __INIT__ is called "self" - this is the instance being created, which will be the name of the variable used when calling the class (e.g. toy_story=media.Movie(...) self will equal toy_story). You can use some other value other than Self, but this is good programming practice.</li>
+				<li>Instance Variable - all of the variables associated with a specific instance/ object - unique to that object. These variables can be called inside the class using Self, and using the instance name outside the class, e.g. toy_storyInstance Methods - all functions inside of the class that are associated with an instance and have the first argument as Self.</li>
+				<li>Class variables - variables that all instances of the class can share; these get defined in the class file but outside of the __INIT__ function; Google recommends that the names of class variables which will contain constant values be in capital letters.</li>
+				<li>Pre-existing class variables - e.g. __doc__ , __name__ , and __module__ - </li>
+				<li>Inheritance - a class can be a "parent" and there can be "child" sub-classes which inherit variables or methods from the parent class.Method Overriding - if there is a method with the same name defined in both the parent and child, if the child subclass is called, the child method (with the same name as the parent) will take precedence over the same named method in the parent class.</li> 
+			</ul> 
+	</div>
+
+</div>
